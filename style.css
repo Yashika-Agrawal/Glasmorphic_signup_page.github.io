@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Lato', sans-serif;;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top left,#94ddf6,#ffffff);  
+}
+.box{
+    width: 400px;
+    margin: 0 auto; /*dont align vertically with margin*/
+    position: relative;
+    top: 40%; /* whole signup will be 50% down but we need to get middle of signup that is 50% up from the current position*/
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    /* background-color: #ffffff09; */
+    background: linear-gradient(to top left , #ffffff,#ffffff11);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #05789e;
+    z-index: 2;
+
+}
+.box:hover{
+    box-shadow: 8px 8px 15px #28c4f8;
+}
+h1{
+    font-size: 2.5rem;
+    color: #212121;
+}
+header p{
+    font-size: 0.9rem;
+    color: #555;
+}
+.signup{
+    margin: 20px 0;
+}
+.signup p{
+    margin: 10px 0;
+}
+.signup p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    margin-top: 4px;
+    font-size: 1rem;;
+}
+#submit{
+    background-color: #11a9dc;
+    color:white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+label{
+    font-weight: bold;
+}
+#submit:hover{
+    background-color: #05789e;
+}
+footer p{
+    color: #555;
+    text-align: center;
+}
+footer a{
+    color: #05789e;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right ,#ffffff33, #ffffff);
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
